@@ -1,0 +1,51 @@
+
+sen@LAPTOP-7Q913KU2 MINGW64 ~
+$ cd desktop
+
+sen@LAPTOP-7Q913KU2 MINGW64 ~/desktop (main)
+$ mkdir git_challenge
+
+sen@LAPTOP-7Q913KU2 MINGW64 ~/desktop (main)
+$ cd git_challenge
+
+sen@LAPTOP-7Q913KU2 MINGW64 ~/desktop/git_challenge (main)
+$ git init
+Initialized empty Git repository in C:/Users/sen/Desktop/git_challenge/.git/
+
+sen@LAPTOP-7Q913KU2 MINGW64 ~/desktop/git_challenge (main)
+$ echo hello, world! > hello_world.txt
+
+sen@LAPTOP-7Q913KU2 MINGW64 ~/desktop/git_challenge (main)
+$ git add hello_world.txt
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+sen@LAPTOP-7Q913KU2 MINGW64 ~/desktop/git_challenge (main)
+$ git commit -m "１回目のコミット"
+[main (root-commit) bca4b88] １回目のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+sen@LAPTOP-7Q913KU2 MINGW64 ~/desktop/git_challenge (main)
+$ git add hello_world.txt
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+sen@LAPTOP-7Q913KU2 MINGW64 ~/desktop/git_challenge (main)
+$ git commit -m "２回目のコミット"
+[main 84046fd] ２回目のコミット
+ 1 file changed, 1 insertion(+)
+
+sen@LAPTOP-7Q913KU2 MINGW64 ~/desktop/git_challenge (main)
+$ git log
+commit 84046fd7eaea1d254dd8ed59c20251253caf28f9 (HEAD -> main)
+Author: 仙 <sen@ks-partner.co.jp>
+Date:   Wed Oct 23 15:36:21 2024 +0900
+
+    ２回目のコミット
+
+commit bca4b885a3aa1de0f207bc737e074c0396e8b349
+Author: 仙 <sen@ks-partner.co.jp>
+Date:   Wed Oct 23 15:29:46 2024 +0900
+
+    １回目のコミット
+
+
